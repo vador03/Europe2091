@@ -5,10 +5,11 @@ state={
 		3756 
 	}
 	history={
-		owner = GRE
+		owner = BUL
 		add_core_of = GRE
 		add_core_of = THR
 		add_core_of = WTH
+		add_core_of = BUL
 		buildings = {
 			infrastructure = 2
 		}
