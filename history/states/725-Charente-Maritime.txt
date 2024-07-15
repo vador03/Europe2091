@@ -3,7 +3,7 @@ state={
 	id=725
 	name="STATE_725"
 	provinces={
-		202 5728 6444 6464 7184 14156 14260 14318 19842 19843 19859 19869 
+		 5728 6444 6464 7184 14156 14260 14318 19842 19843  
 	}
 	history={
 		owner = FRA
@@ -13,9 +13,7 @@ state={
 			infrastructure = 4
 			19859 = { naval_base = 3 }
 		}
-        victory_points = {
-            19859 5 #La Rochelle
-        }
+
         victory_points = {
             14156 2 #Rochefort
         }

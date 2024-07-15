@@ -16,7 +16,7 @@ state={
 
 		}
 		victory_points = {
-			19859 5 
+			19859 5 #La Rochelle
 		}
 
 	}
