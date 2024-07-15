@@ -3,7 +3,8 @@ state={
 	name="STATE_2605"
 
 	history={
-		owner = ITA
+		owner = SMR
+		add_core_of = SMR
 		add_core_of = ITA
 		add_core_of = RMG
 		buildings = {

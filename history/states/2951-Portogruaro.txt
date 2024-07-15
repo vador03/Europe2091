@@ -4,8 +4,9 @@ state={
 
 	history={
 		owner = VNT
-		add_core_of = ITA
 		add_core_of = VNT
+		add_core_of = ITA
+	
 		add_core_of = FRI
 		buildings = {
 			infrastructure = 4

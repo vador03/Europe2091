@@ -269,6 +269,54 @@ focus_tree = {
 			}
 		}
 	}
+	focus = {
+		id = special_forces_Winter
+		icon = GFX_goal_generic_special_forces
+		prerequisite = { focus = special_forces }
+
+		x = 1
+		y = 0.5
+		relative_position_id = special_forces
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = winter_experts
+			add_tech_bonus = {
+				name = special_forces_bonus
+				bonus = 1.0
+				uses = 1
+				
+			}
+		}
+	}
+	focus = {
+		id = special_forces_Desert
+		icon = GFX_goal_generic_special_forces
+		prerequisite = { focus = special_forces }
+
+		x = 1
+		y = 0.5
+		relative_position_id = special_forces
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = desert_experts
+			add_tech_bonus = {
+				name = special_forces_bonus
+				bonus = 1.0
+				uses = 1
+				
+			}
+		}
+	}
 
 	focus = {
 		id = aviation_effort
@@ -943,7 +991,7 @@ focus_tree = {
 	focus = {
 		id = industrial_effort
 		icon = GFX_goal_generic_production
-		x = 13
+		x = 30
 		y = 0
 		cost = 10
 
@@ -1129,6 +1177,24 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
+		}
+	}
+
+	focus = {
+		id = g
+		icon = GFX_focus_research
+		prerequisite = { focus = construction_effort }
+		x = -2
+		y = 1
+		relative_position_id = construction_effort
+		cost = 10
+
+		search_filters = { FOCUS_FILTER_RESEARCH } 
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_research_slot = 1
 		}
 	}
 

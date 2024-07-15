@@ -4,10 +4,11 @@ state={
 	name="STATE_1601"
 
 	history={
-		owner = ROM
+		owner = TSN
 		add_core_of = ROM
 		add_core_of = UKR
 		add_core_of = BDZ
+		add_core_of = TSN
 		buildings = {
 			infrastructure = 3
 
