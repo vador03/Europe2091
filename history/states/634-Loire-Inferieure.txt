@@ -1,0 +1,34 @@
+
+state={
+	id=634
+	name="STATE_634"
+
+	history={
+		owner = FRA
+		add_core_of = FRA
+		buildings = {
+			infrastructure = 4
+			6799 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = BRI
+		victory_points = {
+			19814 20 
+		}
+		victory_points = {
+			6799 5 
+		}
+
+	}
+
+	provinces={
+		437 3334 4412 4666 5778 6799 8535 9463 13730 13747 19814 
+	}
+	manpower=659400
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

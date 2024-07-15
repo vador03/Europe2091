@@ -6,13 +6,12 @@ state={
 		2682 7510 12876 20713 20729 
 	}
 	history={
-	    owner = RHN
+	    owner = GER
 		add_core_of = GER
 		buildings = {
 			infrastructure = 4
 		}
 		add_core_of = HES
-		add_core_of = RHN
 		victory_points = {
 			20729 10 #Mainz
 		}

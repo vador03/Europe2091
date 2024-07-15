@@ -4,10 +4,9 @@ state={
 	name="STATE_2962"
 
 	history={
-		owner = SRD
+		owner = SPR
 		add_core_of = BAL
 		add_core_of = SPR
-		add_core_of = SRD
 		buildings = {
 			infrastructure = 2
 			19805 = {

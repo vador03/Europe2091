@@ -5,11 +5,10 @@ state={
 		13147 
 	}
 	history = {
-		owner = ZAP
+		owner = SOV
 		add_core_of = SOV
 		add_core_of = UKR
 		add_core_of = ODS
-		add_core_of = ZAP
 		buildings = {
 			infrastructure = 3
 		}
