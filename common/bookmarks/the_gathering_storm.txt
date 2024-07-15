@@ -2,7 +2,7 @@ bookmarks = {
 	bookmark = {
 		name = "GATHERING_STORM_NAME"
 		desc = "GATHERING_STORM_DESC"
-		date = 1936.1.1.12
+		date = 2091.1.1.12
 		picture = "GFX_select_date_1936"
 		default_country = "GER"
 		default = yes
@@ -16,9 +16,9 @@ bookmarks = {
 			}
 		}
 		
-		"ITA"={
+		"PER"={
 			history = "ENG_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = fasciste
 			ideas = {
 			}
 			focuses = {
@@ -45,14 +45,14 @@ bookmarks = {
 		
 		"SOV"={
 			history = "ENG_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = fascist 
 			ideas = {
 			}
 			focuses = {
 			}
 		}
 		
-		"USA"={
+		"BUL"={
 			history = "ENG_GATHERING_STORM_DESC"
 			ideology = democratic
 			ideas = {
@@ -75,6 +75,16 @@ bookmarks = {
 		}
 		
 		# minors from DLC ####
+		"BYS"={
+			minor = yes
+			history = "ENG_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
 
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !
