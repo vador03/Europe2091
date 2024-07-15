@@ -3911,9 +3911,9 @@
 
    #COMMUNISM
 
-    BYS_communism:0 "Democratic Federal Republic of Yugoslavia"
-    BYS_communism_DEF:0 "the Democratic Federal Republic of Yugoslavia"
-    BYS_communism_ADJ:0 "Yugoslavian"
+    BYS_communism:0 "Democratic Republic of Eastern Romans"
+    BYS_communism_DEF:0 "the Democratic Republic of Eastern Romans"
+    BYS_communism_ADJ:0 "Romans"
 
    #DEMOCRATIC
 
