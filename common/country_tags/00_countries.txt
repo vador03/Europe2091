@@ -488,4 +488,4 @@ MOU = "countries/Mountain Republic.txt"
 
 LHR = "countries/Libyan House of Representatives.txt"
 PGE = "countries/Principado de los Guerreros del Evangelio.txt"
-SCH = "countries/State of the Cross and Hood.txt
+SCH = "countries/State of the Cross and Hood.txt"
