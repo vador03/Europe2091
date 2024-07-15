@@ -482,3 +482,10 @@ WAM = "countries/West Armenia.txt"
 GOT = "countries/Gotland.txt"
 SMA = "countries/Smaland.txt"
 MOU = "countries/Mountain Republic.txt"
+
+
+#new
+
+LHR = "countries/Libyan House of Representatives.txt"
+PGE = "countries/Principado de los Guerreros del Evangelio.txt"
+SCH = "countries/State of the Cross and Hood.txt

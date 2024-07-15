@@ -4,7 +4,7 @@ state={
 	name="STATE_2785"
 
 	history={
-		owner = SOV
+		owner = SAP
 		add_core_of = SOV
 		add_core_of = RUS
 		buildings = {
