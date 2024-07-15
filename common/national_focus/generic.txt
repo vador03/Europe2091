@@ -286,7 +286,6 @@ focus_tree = {
 
 		completion_reward = {
 			add_ideas = winter_experts
-			add_technology = camelry 
 		}
 	}
 	focus = {
@@ -306,10 +305,6 @@ focus_tree = {
 
 		completion_reward = {
 			add_ideas = desert_experts
-			add_tech_bonus = {
-				add_technology = winter_logistics_support_tech
-				
-			}
 		}
 	}
 
@@ -986,7 +981,7 @@ focus_tree = {
 	focus = {
 		id = industrial_effort
 		icon = GFX_goal_generic_production
-		x = 30
+		x = 13
 		y = 0
 		cost = 10
 
