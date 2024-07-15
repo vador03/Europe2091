@@ -2,14 +2,14 @@ state={
 	id=1653
 	name="STATE_1653"
 	history={
-		owner = GER
+		owner = CZE
 		add_core_of = GER
 		buildings = {
 			infrastructure = 3
 		}
 		add_core_of = PRE
 		add_core_of = SIL 
-		add_claim_by = CZE
+		add_core_of = CZE
 		victory_points = {
 			12599 2 #Glatz
 		}
