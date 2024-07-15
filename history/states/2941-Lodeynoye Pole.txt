@@ -10,6 +10,9 @@ state={
 		add_core_of = SOV
 		add_core_of = RUS
 		buildings = { infrastructure = 1 }
+		victory_points = {
+			789 2 
+		}
 	}
 	state_category = pastoral
 	manpower=32967

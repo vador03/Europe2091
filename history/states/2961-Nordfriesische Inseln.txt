@@ -14,9 +14,7 @@ state={
 		add_core_of = SHL
 		add_core_of = SLW
 		add_core_of = NFR
-		victory_points = {
-			10903 2 
-		}
+
 
 	}
 	state_category = small_island
