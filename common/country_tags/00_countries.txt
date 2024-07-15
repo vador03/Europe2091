@@ -47,6 +47,7 @@ LUX = "countries/Luxembourg.txt"
 BEL = "countries/Belgium.txt"
 IRE = "countries/Ireland.txt"
 WFR = "countries/West Frisia.txt"
+CTL = "countries/Cartel.txt"
 
 ###Eastern Europe
 POL = "countries/Poland.txt"
@@ -76,6 +77,7 @@ MOL = "countries/Moldova.txt"
 TRA = "countries/Transylvania.txt"
 BUC = "countries/Bucovina.txt"
 SZE = "countries/Szekely.txt"
+BYS = "countries/Byzantine.txt"
 
 ###Northern Europe
 DEN = "countries/Denmark.txt"

@@ -5,8 +5,9 @@ state={
 		21471 
 	}
 	history={
-		owner = TUR
+		owner = BYS
 		add_core_of = TUR
+		add_core_of = BYS
 		buildings = {
 			infrastructure = 2
 		}

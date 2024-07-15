@@ -3905,3 +3905,103 @@
     YUG:0 "Yugoslavia"
     YUG_DEF:0 "the Yugoslavian State"
     YUG_ADJ:0 "Yugoslavian"
+
+  ###################### 
+ ###Byzance
+
+   #COMMUNISM
+
+    BYS_communism:0 "Democratic Federal Republic of Yugoslavia"
+    BYS_communism_DEF:0 "the Democratic Federal Republic of Yugoslavia"
+    BYS_communism_ADJ:0 "Yugoslavian"
+
+   #DEMOCRATIC
+
+    BYS_democratic:0 "Republic of Eastern Romans"
+    BYS_democratic_DEF:0 "the Republic of  Eastern Romans"
+    BYS_democratic_ADJ:0 "Romans"
+
+   #FASCISM
+
+    BYS_fascism:0 "Byzantine Empire"
+    BYS_fascism_DEF:0 "the Byzantine Empire"
+    BYS_fascism_ADJ:0 "Romans"
+
+   #NEUTRALITY
+
+    BYS_neutrality:0 "Byzantine Empire"
+    BYS_neutrality_DEF:0 "Byzantine Empire"
+    BYS_neutrality_ADJ:0 "Romans"
+
+   #TAG
+
+    BYS:0 "Byzantine"
+    BYS_DEF:0 "the Byzantine Empire"
+    BYS_ADJ:0 "Romans"
+
+ LHR_democratic:0 "Republic of Libyan House of Representatives"
+ LHR_democratic_DEF:0 "Republic of Libyan House of Representatives"
+ LHR_democratic_ADJ:0 "The Libyan House of Representatives"
+ LHR_communism:0 "People's Republic of Libyan"
+ LHR_communism_DEF:0 "People's Republic of Libyan"
+ LHR_communism_ADJ:0 "The Libyan House of Representatives"
+ LHR_fascism:0 "The Libyan House of Charmain"
+ LHR_fascism_DEF:0 "The Libyan House of Charmain"
+ LHR_fascism_ADJ:0 "The Libyan House of Representatives"
+ LHR_neutrality:0 "Libyan House of Representatives"
+ LHR_neutrality_DEF:0 "Libyan House of Representatives"
+ LHR_neutrality_ADJ:0 "The Libyan House of Representatives"
+
+
+ SCH_democratic:0 "Republic of Cross and Hood"
+ SCH_democratic_DEF:0 "Republic of Cross and Hood"
+ SCH_democratic_ADJ:0 "The State of the Cross and Hood"
+ SCH_communism:0 "People's Republic of the Cross and Hood"
+ SCH_communism_DEF:0 "People's Republic of the Cross and Hood"
+ SCH_communism_ADJ:0 "The State of the Cross and Hood"
+ SCH_fascism:0 "The State of the Cross and Hood "
+ SCH_fascism_DEF:0 "The State of the Cross and Hood "
+ SCH_fascism_ADJ:0 "The State of the Cross and Hood"
+ SCH_neutrality:0 "State of the Cross and Hood"
+ SCH_neutrality_DEF:0 "State of the Cross and Hood"
+ SCH_neutrality_ADJ:0 "The State of the Cross and Hood"
+
+ RHO_democratic:0 "Republic of Rhodes"
+ RHO_democratic_DEF:0 "Republic of Rhodes"
+ RHO_democratic_ADJ:0 "Rhodes"
+ RHO_communism:0 "People's Republic of Rhodes"
+ RHO_communism_DEF:0 "People's Republic of Rhodes"
+ RHO_communism_ADJ:0 "Rhodes"
+ RHO_fascism:0 "Rhodes Order"
+ RHO_fascism_DEF:0 "Rhodes Order"
+ RHO_fascism_ADJ:0 "Rhodes"
+ RHO_neutrality:0 "Kingdom of Rhodes"
+ RHO_neutrality_DEF:0 "Kingdom of Rhodes"
+ RHO_neutrality_ADJ:0 "Rhodes"
+
+ NTA_democratic:0 "Republic of NeosTroia "
+ NTA_democratic_DEF:0 "Republic of NeosTroia "
+ NTA_democratic_ADJ:0 "NeosTroia "
+ NTA_communism:0 "People's Republic of NeosTroia "
+ NTA_communism_DEF:0 "People's Republic of NeosTroia "
+ NTA_communism_ADJ:0 "NeosTroia "
+ NTA_fascism:0 "NeosTroia  Empire"
+ NTA_fascism_DEF:0 "NeosTroia  Empire"
+ NTA_fascism_ADJ:0 "NeosTroia "
+ NTA_neutrality:0 "NeosTroia "
+ NTA_neutrality_DEF:0 "NeosTroia "
+ NTA_neutrality_ADJ:0 "NeosTroia "
+
+
+ ALW_democratic:0 "Republic of Antioch"
+ ALW_democratic_DEF:0 "Republic of Antioch"
+ ALW_democratic_ADJ:0 "Principality of Antioch"
+ ALW_communism:0 "People's Republic of Hatay"
+ ALW_communism_DEF:0 "People's Republic of Hatay"
+ ALW_communism_ADJ:0 "Principality of Antioch"
+ ALW_fascism:0 "Antioch Empire"
+ ALW_fascism_DEF:0 "Antioch Empire"
+ ALW_fascism_ADJ:0 "Principality of Antioch"
+ ALW_neutrality:0 "Principality of Antioch"
+ ALW_neutrality_DEF:0 "Principality of Antioch"
+ ALW_neutrality_ADJ:0 "Principality of Antioch"

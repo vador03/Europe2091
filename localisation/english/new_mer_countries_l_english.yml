@@ -45,9 +45,7 @@
  MHB_communism:0 "Republic of Mahabad"
  MHB_communism_DEF:0 "the Republic of Mahabad"
  MHB_communism_ADJ:0 "Mahabadi" 
- ALW:0 "Alawite State"
- ALW_DEF:0 "the Alawite State"
- ALW_ADJ:0 "Alawite" 
+ 
  JDZ:0 "Jabal Druze State"
  JDZ_DEF:0 "Jabal Druze State"
  JDZ_ADJ:0 "Druze" 
