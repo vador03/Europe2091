@@ -137,12 +137,7 @@ ideologies = {
 			
 			rexism = {
 			}
-
-			nationalist ={
-			}
-
-			islamic ={ 
-			}
+		}
 		
 		dynamic_faction_names = {
 			"FACTION_NAME_FASCIST_1"
@@ -196,8 +191,7 @@ ideologies = {
 			
 			centrism = {
 			}
-			theocracy = {
-			}
+			# theocracy = {}
 		}
 
 		dynamic_faction_names = {

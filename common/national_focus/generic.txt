@@ -285,12 +285,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_ideas = winter_experts
-			add_tech_bonus = {
-				name = special_forces_bonus
-				bonus = 1.0
-				uses = 1
-				
-			}
+			add_technology = camelry 
 		}
 	}
 	focus = {
@@ -298,7 +293,7 @@ focus_tree = {
 		icon = GFX_goal_generic_special_forces
 		prerequisite = { focus = special_forces }
 
-		x = 1
+		x = -1
 		y = 0.5
 		relative_position_id = special_forces
 		cost = 10
@@ -310,9 +305,7 @@ focus_tree = {
 		completion_reward = {
 			add_ideas = desert_experts
 			add_tech_bonus = {
-				name = special_forces_bonus
-				bonus = 1.0
-				uses = 1
+				add_technology = winter_logistics_support_tech
 				
 			}
 		}
