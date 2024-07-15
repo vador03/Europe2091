@@ -4,7 +4,8 @@ state={
 	name="STATE_2020"
 
 	history={
-		owner = GRE
+		owner = MAC
+		add_core_of = MAC
 		add_core_of = GRE
 		buildings = {
 			infrastructure = 2
