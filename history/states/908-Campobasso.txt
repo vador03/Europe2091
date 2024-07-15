@@ -4,9 +4,9 @@ state={
 	name="STATE_908"
 
 	history={
-		owner = ITA
+		owner = PUG
 		add_core_of = ITA
-		add_core_of = MLS
+		add_core_of = PUG
 		buildings = {
 			infrastructure = 3
 
