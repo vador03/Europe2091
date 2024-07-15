@@ -1232,8 +1232,8 @@
 
    #FASCISM
 
-    GER_fascism:0 "German Reich"
-    GER_fascism_DEF:0 "the German Reich"
+    GER_fascism:0 "Deutsches Neues Reich"
+    GER_fascism_DEF:0 "the Deutsches Neues Reich"
     GER_fascism_ADJ:0 "German"
 
    #NEUTRALITY
@@ -1264,8 +1264,8 @@
 
     #FASCISM
 
-     DDR_fascism:0 "German Reich"
-     DDR_fascism_DEF:0 "the German Reich"
+     DDR_fascism:0 "Deutsches Neues Reich"
+     DDR_fascism_DEF:0 "the Deutsches Neues Reich"
      DDR_fascism_ADJ:0 "German"
 
     #NEUTRALITY
@@ -1488,8 +1488,8 @@
 
    #FASCISM
 
-    PER_fascism:0 "Iranian State"
-    PER_fascism_DEF:0 "the Iranian State"
+    PER_fascism:0 "Islamic Republic of Iran"
+    PER_fascism_DEF:0 "the Islamic Republic of Iran"
     PER_fascism_ADJ:0 "Iranian"
 
    #NEUTRALITY
