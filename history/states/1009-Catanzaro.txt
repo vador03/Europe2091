@@ -4,7 +4,8 @@ state={
 	name="STATE_1009"
 
 	history={
-		owner = ITA
+		owner = NAP
+		add_core_of = NAP
 		add_core_of = ITA
 		add_core_of = CAL
 		buildings = {
