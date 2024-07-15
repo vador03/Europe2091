@@ -10,7 +10,8 @@ state={
 		}
 		add_core_of = PRE
 		add_core_of = WST
-		owner = GER
+		add_core_of = RHN
+		owner = RHN
         victory_points = {
             8574 10 #Recklinghausen und Marl
         }

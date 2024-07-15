@@ -4,7 +4,7 @@ state={
 	name="STATE_1746"
 
 	history={
-		owner = GER
+		owner = RHN
 		add_core_of = GER
 		buildings = {
 			infrastructure = 4
@@ -12,6 +12,7 @@ state={
 		add_core_of = PRE
 		add_core_of = HSN
 		add_core_of = NAS
+		add_core_of = RHN
 		victory_points = {
 			12673 40 
 		}
