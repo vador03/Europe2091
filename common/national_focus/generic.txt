@@ -273,6 +273,7 @@ focus_tree = {
 		id = special_forces_Winter
 		icon = GFX_goal_generic_special_forces
 		prerequisite = { focus = special_forces }
+		mutually_exclusive = { focus = special_forces_Desert }
 
 		x = 1
 		y = 0.5
@@ -292,6 +293,7 @@ focus_tree = {
 		id = special_forces_Desert
 		icon = GFX_goal_generic_special_forces
 		prerequisite = { focus = special_forces }
+		mutually_exclusive = { focus = special_forces_Winter }
 
 		x = -1
 		y = 0.5
@@ -1173,23 +1175,7 @@ focus_tree = {
 		}
 	}
 
-	focus = {
-		id = g
-		icon = GFX_focus_research
-		prerequisite = { focus = construction_effort }
-		x = -2
-		y = 1
-		relative_position_id = construction_effort
-		cost = 10
 
-		search_filters = { FOCUS_FILTER_RESEARCH } 
-		
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_research_slot = 1
-		}
-	}
 
 	focus = {
 		id = construction_effort_2
