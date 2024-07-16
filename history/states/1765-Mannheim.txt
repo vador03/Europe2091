@@ -4,7 +4,8 @@ state={
 	name="STATE_1765"
 
 	history={
-		owner = GER
+		owner = RHN
+		add_core_of = RHN
 		victory_points = {
 			20767 20 #Mannheim und Heidelberg
 		}

@@ -12,7 +12,7 @@ state={
 	}
 
 	history={
-		owner = FRA
+		owner = NMD
 		add_core_of = FRA
 		buildings = {
 			infrastructure = 4

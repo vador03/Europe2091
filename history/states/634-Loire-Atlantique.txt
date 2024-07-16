@@ -3,10 +3,10 @@ state={
 	id=634
 	name="STATE_634"
 	provinces={
-		437 3334 4412 4666 5778 6799 8535 9463  13730 13747   19814 
+		437 3334 4412 4666 5778 6799 8535 9463  13730 13747 19814 
 	}
 	history={
-		owner = FRA
+		owner = BRI
 		add_core_of = FRA
 		buildings = {
 			infrastructure = 4

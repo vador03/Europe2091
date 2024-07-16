@@ -4,7 +4,7 @@ state={
 	name="STATE_572"
 
 	history={
-		owner = FRA
+		owner = NMD
 		add_core_of = FRA
 		victory_points = {
 			13294 2 
@@ -18,7 +18,7 @@ state={
 	}
 
 	provinces={
-		8009 9001 13294 20501 
+		8009  13294 20501 
 	}
 	manpower=152693
 	buildings_max_level_factor=1.000

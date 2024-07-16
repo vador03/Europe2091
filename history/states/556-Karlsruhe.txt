@@ -6,7 +6,8 @@ state={
 		8180 13095 13115 20754 20755 
 	}
 	history={
-	    owner = GER
+	    owner = RHN
+		add_core_of = RHN
         victory_points = {
             13095 20 #Karlsruhe
         }

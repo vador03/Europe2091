@@ -8,6 +8,7 @@ state={
 		buildings = {
 			infrastructure = 4
 		}
+		set_demilitarized_zone = yes
 	}
 	provinces={
 		19195 
