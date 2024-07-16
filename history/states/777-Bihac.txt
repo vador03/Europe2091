@@ -2,7 +2,9 @@
 state={
 	id=777
 	name="STATE_777"
-
+	resources={
+		steel= 42
+	}
 	history={
 		owner = BOS
 		add_core_of = BOS

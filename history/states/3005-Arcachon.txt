@@ -2,7 +2,7 @@ state={
 	id=3005
 	name="STATE_3005"
 	resources={
-		oil=10.000
+		oil=8.000
 	}
 	history={
 		owner = OCC

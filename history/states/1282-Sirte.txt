@@ -2,6 +2,9 @@
 state={
 	id=1282
 	name="STATE_1282"
+	resources={
+		oil= 1
+	}
 					
 	history={
 		owner = LBA

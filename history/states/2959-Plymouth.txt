@@ -4,6 +4,9 @@ state={
 	provinces={
 		5768 
 	}
+	resources={
+		tungsten = 30
+	}
 	history={
 		owner = WSX
 		add_core_of = ENG

@@ -1,7 +1,10 @@
 
 state={
 	id=1299
-	name="STATE_1299"		
+	name="STATE_1299"	
+	resources={
+		oil= 4
+	}	
 	history = {
 		owner = EGY
 		add_core_of = EGY

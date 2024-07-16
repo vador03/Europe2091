@@ -2,6 +2,9 @@
 state={
 	id=2704
 	name="STATE_2704"
+	resources={
+		steel= 32
+	}
 
 	history={
 		owner = SAP

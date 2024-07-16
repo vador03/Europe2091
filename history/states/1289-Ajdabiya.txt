@@ -2,13 +2,16 @@
 state={
 	id=1289
 	name="STATE_1289"
+	resources={
+		oil= 21
+	}
 
 	history={
 		owner = LHR
 		add_core_of = LHR
 		add_core_of = LBA
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 
 		}
 		victory_points = {

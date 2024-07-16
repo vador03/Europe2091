@@ -1,6 +1,9 @@
 state={
 	id=1589
 	name="STATE_1589"
+	resources={
+		oil= 4
+	}
 	history = {
 		owner = ROM
 		add_core_of = WLC

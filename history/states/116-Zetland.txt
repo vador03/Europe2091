@@ -2,6 +2,9 @@
 state={
 	id=116
 	name="STATE_116"
+	resources={
+		oil= 4
+	}
 	history={
 		owner = SCO
 		add_core_of = ENG

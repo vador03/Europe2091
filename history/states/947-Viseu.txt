@@ -2,6 +2,9 @@
 state={
 	id=947
 	name="STATE_947"
+	resources={
+		tungsten = 37
+	}
 	provinces={
 		1660 5291 5941 7853 
 	}
