@@ -2,7 +2,9 @@
 state={
 	id=819
 	name="STATE_819"
-
+	resources={
+		oil= 5
+	}
 	history={
 		owner = OCC
 		add_core_of = FRA

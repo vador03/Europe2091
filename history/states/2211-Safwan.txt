@@ -2,6 +2,9 @@
 state={
 	id=2211
 	name="STATE_2211"
+	resources={
+		oil= 2
+	}
 	history = {
 		owner = IRQ
 		add_core_of = IRQ
