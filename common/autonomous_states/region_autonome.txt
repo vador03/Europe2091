@@ -29,6 +29,13 @@ region_autonome = {
 		cic_to_overlord_factor = 0.75
 		mic_to_overlord_factor = 0.75
 		research_sharing_per_country_bonus_factor = -0.2
+		army_defence_factor = 0.1
+		dig_in_speed_factor = 0.12
+		nuclear_production_factor = -1.0
+		local_resources_factor = 0.3
+		nuclear_production = 0
+		offensive_war_stability_factor = -0.2
+		minimum_training_level = 0.2
 	}
 	
 	ai_subject_wants_higher = {
