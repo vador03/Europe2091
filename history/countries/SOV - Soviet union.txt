@@ -283,15 +283,15 @@ if = {
 set_convoys = 50
 
 set_politics = {
-	ruling_party = communism
+	ruling_party = fascism
 	last_election = "1933.7.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 10
-	fascism = 2
-	communism = 88
+	democratic = 12
+	fascism = 68
+	communism = 20
 }
 
 if = {
