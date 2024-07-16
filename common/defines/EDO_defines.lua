@@ -1,5 +1,5 @@
-NDefines.NGame.START_DATE = "1936.1.1.12"
-NDefines.NGame.END_DATE = "1970.1.1.1"
+NDefines.NGame.START_DATE = "2091.1.1.12"
+NDefines.NGame.END_DATE = "2120.1.1.1"
 
 NDefines.NFrontend.CAMERA_MIN_HEIGHT = 50.0
 NDefines.NFrontend.CAMERA_MAX_HEIGHT = 3800.0
@@ -8,7 +8,7 @@ NDefines.NGraphics.PROVINCE_NAME_DRAW_DISTANCE = 1000.0 			-- Remove province na
 NDefines.NGame.MAP_SCALE_PIXEL_TO_KM = 1.74
 NDefines.NGame.SAVE_VERSION = 7
 
-NDefines.NMilitary.LAND_SPEED_MODIFIER = 0.15
+NDefines.NMilitary.LAND_SPEED_MODIFIER = 0.06
 
 NDefines.NSupply.CAPITAL_SUPPLY_BASE = 1.6 -- base supply for capital
 NDefines.NSupply.CAPITAL_INITIAL_SUPPLY_FLOW = 3.0 -- starting supply from capital

@@ -276,7 +276,7 @@ focus_tree = {
 		mutually_exclusive = { focus = special_forces_Desert }
 
 		x = 1
-		y = 0.5
+		y = 0.2
 		relative_position_id = special_forces
 		cost = 10
 
@@ -295,7 +295,7 @@ focus_tree = {
 		mutually_exclusive = { focus = special_forces_Winter }
 
 		x = -1
-		y = 0.5
+		y = 0.2
 		relative_position_id = special_forces
 		cost = 10
 

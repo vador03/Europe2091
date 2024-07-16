@@ -4,13 +4,13 @@ state={
 	name="STATE_1554"
 
 	history={
-		owner = ITA
+		owner = RHO
+		add_core_of = RHO
 		add_core_of = GRE
 		buildings = {
 			infrastructure = 2
 
 		}
-		add_claim_by = ITA
 		victory_points = {
 			20297 5 
 		}

@@ -4,7 +4,8 @@ state={
 	name="STATE_1094"
 
 	history={
-		owner = TUR
+		owner = RHO
+		add_core_of = RHO
 		add_core_of = TUR
 		buildings = {
 			infrastructure = 2
