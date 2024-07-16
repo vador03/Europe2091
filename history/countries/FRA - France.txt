@@ -163,27 +163,37 @@ set_popularities = {
 if = {
 	limit = { has_dlc = "Together for Victory" }
 	set_autonomy = {
-		target = SYR
+		target = BGN
 		autonomous_state = autonomy_colony
 	}
 	set_autonomy = {
-		target = JDZ
+		target = OCC
 		autonomous_state = autonomy_colony
 	}
 	set_autonomy = {
-		target = LEB
+		target = DAU
 		autonomous_state = autonomy_colony
 	}
 	set_autonomy = {
-		target = MOR
+		target = LDC
 		autonomous_state = autonomy_colony
 	}
-
+	set_autonomy = {
+		target = NMD
+		autonomous_state = autonomy_colony
+	}
+	set_autonomy = {
+		target = ALS
+		autonomous_state = autonomy_colony
+	}
 
 	else = {
-		puppet = SYR
-		puppet = JDZ
-		puppet = MOR
+		puppet = BGN
+		puppet = OCC
+		puppet = DAU
+		puppet = LDC
+		puppet = NMD
+		puppet = ALS
 	}
 }
 
