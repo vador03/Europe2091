@@ -164,27 +164,27 @@ if = {
 	limit = { has_dlc = "Together for Victory" }
 	set_autonomy = {
 		target = BGN
-		autonomous_state = autonomy_colony
+		autonomous_state = autonomy_integrated_puppet
 	}
 	set_autonomy = {
 		target = OCC
-		autonomous_state = autonomy_colony
+		autonomous_state = autonomy_puppet
 	}
 	set_autonomy = {
 		target = DAU
-		autonomous_state = autonomy_colony
+		autonomous_state = autonomy_integrated_puppet
 	}
 	set_autonomy = {
 		target = LDC
-		autonomous_state = autonomy_colony
+		autonomous_state = autonomy_integrated_puppet
 	}
 	set_autonomy = {
 		target = NMD
-		autonomous_state = autonomy_colony
+		autonomous_state = autonomy_integrated_puppet
 	}
 	set_autonomy = {
 		target = ALS
-		autonomous_state = autonomy_colony
+		autonomous_state = autonomy_integrated_puppet
 	}
 
 	else = {
