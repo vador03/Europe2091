@@ -3,7 +3,7 @@ state={
 	id=602
 	name="STATE_602"
 	history={
-		owner = GER
+		owner = WUR
 		victory_points = {
             2168 2 #Albstadt
         }
@@ -13,6 +13,7 @@ state={
 		}
 		add_core_of = PRE
 		add_core_of = HOZ
+		add_core_of = WUR
     }
 	provinces={
 		2168 13441 20747 

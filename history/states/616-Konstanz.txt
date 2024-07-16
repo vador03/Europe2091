@@ -3,12 +3,13 @@ state={
 	id=616
 	name="STATE_616"
 	history={
-		owner = GER
+		owner = WUR
 		add_core_of = GER
 		buildings = {
 			infrastructure = 4
 		}
 		add_core_of = BDN
+		add_core_of = WUR
 		victory_points = {
 			13597 5 #Konstanz
 		}
