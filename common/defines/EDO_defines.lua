@@ -1,5 +1,5 @@
 NDefines.NGame.START_DATE = "2091.1.1.12"
-NDefines.NGame.END_DATE = "2120.1.1.1"
+NDefines.NGame.END_DATE = "2150.1.1.1"
 
 NDefines.NFrontend.CAMERA_MIN_HEIGHT = 50.0
 NDefines.NFrontend.CAMERA_MAX_HEIGHT = 3800.0
