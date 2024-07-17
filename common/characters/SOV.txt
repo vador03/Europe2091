@@ -16,7 +16,7 @@ characters = {
 		name = SOV_Putin
 		portraits = {
 			civilian = {
-				large = GFX_portrait_SOV_vlad_ai_
+				large = GFX_portrait_SOV_vlad_ai_.gif
 			}
 
 		}

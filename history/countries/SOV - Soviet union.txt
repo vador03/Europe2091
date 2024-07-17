@@ -2,7 +2,16 @@
 ####
 #### NO STEP BACK
 ####
-
+#COUNTRY LEADERS
+create_country_leader = {
+	name = "Vladimir Putin 'Immortal'"
+	desc = ""
+	picture = GFX_portrait_SOV_vlad_ai_.gif
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
+}
 
 #You don't want Russian party names? Just remove these lines
 set_party_name = {
@@ -16,8 +25,8 @@ set_party_name = {
 	name = SOV_fascism_party_russian
 }
 
-#COUNTRY LEADERS
-recruit_character = SOV_Putin
+
+
 
 
 #POLITICAL ADVISORS
