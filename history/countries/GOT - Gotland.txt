@@ -84,7 +84,7 @@ if = {
 
 set_politics = {
 	ruling_party = neutrality
-	last_election = "1932.9.18"
+	last_election = "2062.9.18"
 	election_frequency = 48
 	elections_allowed = no
 }
@@ -98,7 +98,7 @@ set_popularities = {
 set_convoys = 25
 
 ### VARIANTS ###
-# 1936 Start #
+
 	create_equipment_variant = {
 		name = "Gotland Class"
 		type = ship_hull_cruiser_1
@@ -116,4 +116,3 @@ set_convoys = 25
 			rear_1_custom_slot = empty
 		}
 	}
-}
