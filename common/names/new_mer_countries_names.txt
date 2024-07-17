@@ -1368,7 +1368,7 @@ ART = {
 		}
 	}
 	surnames = {  
-		Ako Arî Avşîn Bado Bangîn Bateyî Bêdeng Bênaw Bênewa Berhem Berpal Berwan Bexşan Bijar Bîrhat Dilbirîn Erdelan Espar Fener Ferhat Ferman Gerdîn Gewher Goran Gulîn Hemreş Herdî Hêro Hewram Kajaw Kamîran Karzan Kinê Lêzan Miraz Mîrhem Mîrko Nalîn Nêçîrvan Nekeroz Peşêw Rêbar Rênas Rîbar Rodî Sajjadi Şerefkendî Şêrefxan Serheng Şûrbaz Wirya Xanî‎ Xerdel Xoşnaw Zarî Zengî
+		   Ako Arî Avşîn Bado Bangîn Bateyî Bêdeng Bênaw Bênewa Berhem Berpal Berwan Bexşan Bijar Bîrhat Dilbirîn Erdelan Espar Fener Ferhat Ferman Gerdîn Gewher Goran Gulîn Hemreş Herdî Hêro Hewram Kajaw Kamîran Karzan Kinê Lêzan Miraz Mîrhem Mîrko Nalîn Nêçîrvan Nekeroz Peşêw Rêbar Rênas Rîbar Rodî Sajjadi Şerefkendî Şêrefxan Serheng Şûrbaz Wirya Xanî Xerdel Xoşnaw Zarî Zengî
 	}
 	callsigns = { }
 }
@@ -1385,7 +1385,7 @@ KRG = {
 		}
 	}
 	surnames = {  
-		Ako Arî Avşîn Bado Bangîn Bateyî Bêdeng Bênaw Bênewa Berhem Berpal Berwan Bexşan Bijar Bîrhat Dilbirîn Erdelan Espar Fener Ferhat Ferman Gerdîn Gewher Goran Gulîn Hemreş Herdî Hêro Hewram Kajaw Kamîran Karzan Kinê Lêzan Miraz Mîrhem Mîrko Nalîn Nêçîrvan Nekeroz Peşêw Rêbar Rênas Rîbar Rodî Sajjadi Şerefkendî Şêrefxan Serheng Şûrbaz Wirya Xanî‎ Xerdel Xoşnaw Zarî Zengî
+		Ako Arî Avşîn Bado Bangîn Bateyî Bêdeng Bênaw Bênewa Berhem Berpal Berwan Bexşan Bijar Bîrhat Dilbirîn Erdelan Espar Fener Ferhat Ferman Gerdîn Gewher Goran Gulîn Hemreş Herdî Hêro Hewram Kajaw Kamîran Karzan Kinê Lêzan Miraz Mîrhem Mîrko Nalîn Nêçîrvan Nekeroz Peşêw Rêbar Rênas Rîbar Rodî Sajjadi Şerefkendî Şêrefxan Serheng Şûrbaz Wirya Xanî Xerdel Xoşnaw Zarî Zengî
 	}
 	callsigns = { }
 }
@@ -1402,7 +1402,7 @@ RJV = {
 		}
 	}
 	surnames = {  
-		Ako Arî Avşîn Bado Bangîn Bateyî Bêdeng Bênaw Bênewa Berhem Berpal Berwan Bexşan Bijar Bîrhat Dilbirîn Erdelan Espar Fener Ferhat Ferman Gerdîn Gewher Goran Gulîn Hemreş Herdî Hêro Hewram Kajaw Kamîran Karzan Kinê Lêzan Miraz Mîrhem Mîrko Nalîn Nêçîrvan Nekeroz Peşêw Rêbar Rênas Rîbar Rodî Sajjadi Şerefkendî Şêrefxan Serheng Şûrbaz Wirya Xanî‎ Xerdel Xoşnaw Zarî Zengî
+		Ako Arî Avşîn Bado Bangîn Bateyî Bêdeng Bênaw Bênewa Berhem Berpal Berwan Bexşan Bijar Bîrhat Dilbirîn Erdelan Espar Fener Ferhat Ferman Gerdîn Gewher Goran Gulîn Hemreş Herdî Hêro Hewram Kajaw Kamîran Karzan Kinê Lêzan Miraz Mîrhem Mîrko Nalîn Nêçîrvan Nekeroz Peşêw Rêbar Rênas Rîbar Rodî Sajjadi Şerefkendî Şêrefxan Serheng Şûrbaz Wirya Xanî Xerdel Xoşnaw Zarî Zengî
 	}
 	callsigns = { }
 }
@@ -1419,7 +1419,7 @@ MHB = {
 		}
 	}
 	surnames = {  
-		Ako Arî Avşîn Bado Bangîn Bateyî Bêdeng Bênaw Bênewa Berhem Berpal Berwan Bexşan Bijar Bîrhat Dilbirîn Erdelan Espar Fener Ferhat Ferman Gerdîn Gewher Goran Gulîn Hemreş Herdî Hêro Hewram Kajaw Kamîran Karzan Kinê Lêzan Miraz Mîrhem Mîrko Nalîn Nêçîrvan Nekeroz Peşêw Rêbar Rênas Rîbar Rodî Sajjadi Şerefkendî Şêrefxan Serheng Şûrbaz Wirya Xanî‎ Xerdel Xoşnaw Zarî Zengî
+		Ako Arî Avşîn Bado Bangîn Bateyî Bêdeng Bênaw Bênewa Berhem Berpal Berwan Bexşan Bijar Bîrhat Dilbirîn Erdelan Espar Fener Ferhat Ferman Gerdîn Gewher Goran Gulîn Hemreş Herdî Hêro Hewram Kajaw Kamîran Karzan Kinê Lêzan Miraz Mîrhem Mîrko Nalîn Nêçîrvan Nekeroz Peşêw Rêbar Rênas Rîbar Rodî Sajjadi Şerefkendî Şêrefxan Serheng Şûrbaz Wirya Xanî Xerdel Xoşnaw Zarî Zengî
 	}
 	callsigns = { }
 }
