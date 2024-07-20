@@ -86,13 +86,13 @@ recruit_character = HUN_franz_friedrich
 recruit_character = HUN_ferenc_szalasi
 
 set_politics = {
-	ruling_party = neutrality
-	last_election = "1935.3.31"
-	election_frequency = 48
+	ruling_party = fascism
+	last_election = "2040.3.31"
+	election_frequency = 88
 	elections_allowed = yes
 }
 set_popularities = {
 	democratic = 25
-	fascism = 31
-	neutrality = 44
+	fascism = 44
+	neutrality = 31
 }
