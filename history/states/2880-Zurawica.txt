@@ -6,7 +6,8 @@ state={
 		2696 12728 12773 
 	}
 	history={
-		owner = POL
+		owner = MLP
+		add_core_of = MLP
 		add_core_of = GAL
 		add_core_of = POL
 		buildings = {

@@ -6,13 +6,14 @@ state={
 		5465 7581 11089 11129 11149 11179 11225 
 	}
 	history={
-	    owner = GER
+	    owner = SHL
+		add_core_of = SHL
 		add_core_of = GER
 		buildings = {
 			infrastructure = 3
 		}
 		add_core_of = PRE
-		add_core_of = SHL
+
 		add_core_of = HLS
 		victory_points = {
 			11089 2 #Bad Oldesloe

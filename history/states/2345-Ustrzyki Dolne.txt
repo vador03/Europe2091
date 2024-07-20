@@ -5,7 +5,7 @@ state={
 		4289 
 	}
 	history={
-		owner = POL
+		owner = WUK
 		add_core_of = GAL
 		add_core_of = WUK
 		add_core_of = POL
