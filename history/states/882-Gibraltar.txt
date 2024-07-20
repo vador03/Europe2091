@@ -13,7 +13,8 @@ state={
 			air_base = 2
 			19769 = {
 				naval_base = 5
-				coastal_bunker = 2
+				coastal_bunker = 10
+				land_bunker = 10
 			}
 		}
         victory_points = {

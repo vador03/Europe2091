@@ -13,13 +13,19 @@ state={
 			15010 = {
 				naval_base = 8
 
+				land_bunker = 10
+
+
+			}
+			21464 = {
+				land_bunker = 10
 			}
 
 		}
 		victory_points = {
 			15010 80 
 		}
-		set_demilitarized_zone = yes
+		
 
 	}
 

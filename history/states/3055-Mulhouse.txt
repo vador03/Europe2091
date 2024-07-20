@@ -1,7 +1,9 @@
 state={
 	id=3055
 	name="STATE_3055"
-	
+	resources={
+		aluminium=30.000
+	}
 	history={
 		owner = ALS
 		add_core_of = FRA

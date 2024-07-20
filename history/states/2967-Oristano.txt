@@ -2,7 +2,9 @@
 state={
 	id=2967
 	name="STATE_2967"
-
+	resources={
+		steel=30.000
+	}
 	history={
 		owner = SRD
 		add_core_of = ITA

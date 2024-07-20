@@ -2,6 +2,9 @@
 state={
 	id=1259
 	name="STATE_1259"
+	resources={
+		steel=30.000
+	}
 	history = {
 		owner = JOR
 		add_core_of = JOR
