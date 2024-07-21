@@ -5,7 +5,6 @@ set_technology = {
 	tech_support = 1
 	tech_recon = 1
 }
-set_cosmetic_tag = TUN_FR
 set_convoys = 20
 
 recruit_character = TUN_acgs
