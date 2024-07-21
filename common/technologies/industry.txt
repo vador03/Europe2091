@@ -24,7 +24,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1.5
-		start_year = 1936
+		start_year = 2090
 		folder = {
 			name = industry_folder
 			position = { x = 0 y = 0 }
@@ -56,7 +56,7 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1937
+		start_year = 2092
 		
 		folder = {
 			name = industry_folder
