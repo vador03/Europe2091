@@ -1,0 +1,35 @@
+focus_tree = {
+		id = Bysance_focus
+		country = {
+			factor = 0
+			
+			modifier = {
+				add = 10
+				tag = BYS
+			}
+		}
+		default = no
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
