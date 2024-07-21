@@ -11,6 +11,7 @@ state={
 		add_core_of = TNE
 		buildings = {
 			infrastructure = 4
+			13851 = { nuclear_reactor = 1}
 		}
         victory_points = {
             3751 10 #Tours
