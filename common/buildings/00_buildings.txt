@@ -96,6 +96,20 @@ buildings = {
 		allied_build = yes
 		infrastructure_construction_effect = yes
 	}
+	
+	trench_building = {
+		show_on_map = 1
+		has_destroyed_mesh = no
+		base_cost = 300
+		per_level_extra_cost = 100
+		provincial = yes
+		disabled_in_dmz = yes
+		icon_frame = 17
+		max_level = 3
+		value = 1
+		land_fort = 1
+		infrastructure_construction_effect = yes
+	}
 
 	bunker = {
 		show_on_map = 1
@@ -223,4 +237,21 @@ buildings = {
 		value = 10
 		infrastructure_construction_effect = yes
 	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

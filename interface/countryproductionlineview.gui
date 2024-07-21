@@ -242,6 +242,27 @@ guiTypes = {
 						format = left
 						#pdx_tooltip = "PRODUCTION_MATERIALS_URANIUM"
 					}
+
+					buttonType = {
+						name = "wood_icon"
+						position = { x=420 y=2 }
+						spriteType = "GFX_resources_strip"
+						frame = 8
+						#pdx_tooltip = "PRODUCTION_MATERIALS_WOOD"
+					}
+
+					instantTextboxType = {
+						name = "wood_value"
+						position = { x = 451 y = 5 }
+						textureFile = ""
+						font = "hoi_18mbs"
+						borderSize = {x = 0 y = 0}
+						text = "999"
+						maxWidth = 50
+						maxHeight = 20
+						format = left
+						#pdx_tooltip = "PRODUCTION_MATERIALS_WOOD"
+					}
 				}
 				#################################
 				iconType = {
@@ -2085,52 +2106,7 @@ guiTypes = {
 			format = center
 		}
 
-		#iconType = {
-		#	name = "creator_flag"
-		#	quadTextureSprite ="GFX_flag_small"
-		#	position = { x = 245 y = 53 }
-		#}
-		#
-		#iconType = {
-		#	name ="equipment_designer"
-		#	spriteType = "GFX_tech_idea_bg"
-		#	position = { x = 230 y = 51 }
-		#	scale = 0.6
-		#	alwaystransparent = yes
-		#}
-		#
-		#gridBoxType = {
-		#	name = "factories_grid"
-		#	position = { x = 282 y = 33 }
-		#	size = { width = 150  height = 90 }
-		#	slotsize = { width = 29 height = 23 }
-		#	max_slots = { x = 5 y = 3 }
-		#	format = "UPPER_LEFT"
-		#}
-#
-		#iconType = {
-		#	name = "prod_line_glow"
-		#	position = { x = 280 y = 31 }
-		#	spriteType = "GFX_prod_line_glow"
-		#	alwaystransparent = yes
-		#}
-		#
-		#buttonType = {
-		#	name = "increase_priority"
-		#	position = { x=488 y=41 }
-		#	quadTextureSprite = "GFX_arrow_up_small"
-		#	pdx_tooltip = "PRODUCTION_INCREASE_PRIORITY_LABEL"
-		#	clicksound = click_default
-		#}
-		#
-		#buttonType = {
-		#	name = "decrease_priority"
-		#	position = { x=488 y=70	 }
-		#	quadTextureSprite = "GFX_arrow_down_small"
-		#	pdx_tooltip = "PRODUCTION_DECREASE_PRIORITY_LABEL"
-		#	pdx_tooltip_delayed = "PRODUCTION_PRIORITY_DELAYED"
-		#	clicksound = click_default
-		#}
+
 
 		buttonType = {
 			name = "close_production_line"
@@ -2153,15 +2129,7 @@ guiTypes = {
 			alwaystransparent = yes
 		}
 
-		#instantTextboxType = {
-		#	name = "general_name"
-		#	position = { x = 8 y = 36 }
-		#	font = "hoi_16mbs"
-		#	maxWidth = 150
-		#	maxHeight = 30
-		#	format =  center
-		#	#alwaystransparent = yes
-		#}
+
 
 		iconType = {
 			name = "need_state_icon"
@@ -2278,28 +2246,7 @@ guiTypes = {
 			position = { x= 0 y = 0 }
 		}
 
-		#iconType = {
-		#	name ="efficiency_progressbar_to_max"
-		#	spriteType = "GFX_efficiency_progressbar_to_max"
-		#	position = { x= 328 y = 8 }
-		#}
-		#iconType = {
-		#	name ="efficiency_progressbar"
-		#	spriteType = "GFX_efficiency_progressbar"
-		#	position = { x= 328 y = 8 }
-		#
-		#}
-		#iconType = {
-		#	name ="efficiency_progressbar_frame"
-		#	spriteType = "GFX_efficiency_progressbar_frame"
-		#	position = { x= 324 y = 6 }
-		#}
-#
-		#iconType = {
-		#	name ="efficiency_icon"
-		#	spriteType = "GFX_efficiency_icon"
-		#	position = { x= 289 y = 4 }
-		#}
+
 
 		buttonType = {
 			name = "btn_x10"
@@ -2328,35 +2275,6 @@ guiTypes = {
 			alwaystransparent = yes
 		}
 
-		#iconType = {
-		#	name ="progressbar"
-		#	spriteType = "GFX_prod_progress_bar2"
-		#	position = { x= 158 y = 31 }
-		#	alwaystransparent = yes
-		#}
-		#
-		#instantTextboxType = {
-		#	name = "speed"
-		#	position = { x = 157 y = 32 }
-		#	textureFile = ""
-		#	font = "hoi_18mbs"
-		#	text = "--"
-		#	maxWidth = 120
-		#	maxHeight = 20
-		#	format = center
-		#}
-
-		#iconType = {
-		#	name = "increase_priority"
-		#	position = { x=488 y=41 }
-		#	spriteType = "GFX_arrow_up_small"
-		#}
-		#
-		#iconType = {
-		#	name = "decrease_priority"
-		#	position = { x=488 y=70	 }
-		#	spriteType = "GFX_arrow_down_small"
-		#}
 	}
 
 	containerWindowType = {
@@ -3065,39 +2983,7 @@ guiTypes = {
 			format = center
 		}
 
-		#gridBoxType = {
-		#	name = "factories_grid"
-		#	position = { x = 282 y = 33 }
-		#	size = { width = 150  height = 90 }
-		#	slotsize = { width = 29 height = 23 }
-		#	max_slots = { x = 5 y = 3 }
-		#	format = "UPPER_LEFT"
-		#}
 
-		#iconType = {
-		#	name = "prod_line_glow"
-		#	position = { x = 280 y = 31 }
-		#	spriteType = "GFX_prod_line_glow"
-		#	alwaystransparent = yes
-		#}
-
-		#buttonType = {
-		#	name = "increase_priority"
-		#	position = { x=488 y=41 }
-		#	quadTextureSprite = "GFX_arrow_up_small"
-		#	pdx_tooltip = "PRODUCTION_INCREASE_PRIORITY_LABEL"
-		#	pdx_tooltip_delayed = "PRODUCTION_PRIORITY_DELAYED"
-		#	clicksound = click_default
-		#}
-		#
-		#buttonType = {
-		#	name = "decrease_priority"
-		#	position = { x=488 y=70	 }
-		#	quadTextureSprite = "GFX_arrow_down_small"
-		#	pdx_tooltip = "PRODUCTION_DECREASE_PRIORITY_LABEL"
-		#	pdx_tooltip_delayed = "PRODUCTION_PRIORITY_DELAYED"
-		#	clicksound = click_default
-		#}
 
 		buttonType = {
 			name = "close_production_line"
@@ -3151,15 +3037,7 @@ guiTypes = {
 			alwaystransparent = yes
 		}
 
-		#instantTextboxType = {
-		#	name = "general_name"
-		#	position = { x = 5 y = 37 }
-		#	font = "hoi_16mbs"
-		#	maxWidth = 140
-		#	maxHeight = 30
-		#	format = center
-		#	#alwaystransparent = yes
-		#}
+
 
 		buttonType = {
 			name = "expand"
