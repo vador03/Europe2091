@@ -6,7 +6,8 @@ state={
 		204 6021 6587 11738 11786 11827 11997 12074 15837 
 	}
 	history = {
-		owner = SOV
+		owner = DKR
+		add_core_of = DKR
 		add_core_of = SOV
 		add_core_of = UKR
 		buildings = {

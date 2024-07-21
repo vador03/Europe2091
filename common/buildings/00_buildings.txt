@@ -9,7 +9,7 @@ buildings = {
 		base_cost = 1500
 		icon_frame = 3
 		infrastructure = yes
-		max_level = 5
+		max_level = 7
 		value = 1
 
 		show_modifier = yes
@@ -216,6 +216,7 @@ buildings = {
 		base_cost = 30000
 		icon_frame = 13
 		nuclear_reactor = yes
+		local_resources_uranium = 10
 		nuclear_production_factor = 1
 		max_level = 1 # This is the max unlock level
 		shares_slots = yes

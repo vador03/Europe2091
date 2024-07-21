@@ -6,7 +6,8 @@ state={
 		1597 1701 
 	}
 	history = {
-		owner = SOV
+		owner = DKR
+		add_core_of = DKR
 		add_core_of = SOV
 		add_core_of = UKR
 		buildings = {
