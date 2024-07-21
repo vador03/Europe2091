@@ -1,0 +1,32 @@
+spriteTypes = {	
+	#new
+
+	SpriteType = {
+		name = "GFX_Agriculture1_medium"
+		texturefile = "gfx/interface/technologies/Agriculture.dds"
+		alwaystransparent = yes
+	}
+	SpriteType = {
+		name = "GFX_Agriculture2_medium"
+		texturefile = "gfx/interface/technologies/Agriculture.dds"
+		alwaystransparent = yes
+	}
+	SpriteType = {
+		name = "GFX_Agriculture3_medium"
+		texturefile = "gfx/interface/technologies/Agriculture.dds"
+		alwaystransparent = yes
+	}
+	SpriteType = {
+		name = "GFX_Agriculture4_medium"
+		texturefile = "gfx/interface/technologies/Agriculture.dds"
+		alwaystransparent = yes
+	}
+	SpriteType = {
+		name = "GFX_Agriculture5_medium"
+		texturefile = "gfx/interface/technologies/Agriculture.dds"
+		alwaystransparent = yes
+	}
+	
+
+
+}
