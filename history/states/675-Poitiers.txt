@@ -9,7 +9,7 @@ state={
 		add_core_of = POI
 		buildings = {
 			infrastructure = 4
-			7064 = { nuclear_reactor = 1}
+			nuclear_reactor = 1
 
 		}
 		victory_points = {

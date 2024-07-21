@@ -6,6 +6,7 @@ state={
 		add_core_of = SWI
 		buildings = {
 			infrastructure = 4
+			nuclear_reactor = 1
 		}
 		victory_points = {
             20101 5 #Schaffhausen

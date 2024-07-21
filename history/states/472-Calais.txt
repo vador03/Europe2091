@@ -9,6 +9,7 @@ state={
 		add_core_of = PIC
 		buildings = {
 			infrastructure = 4
+			nuclear_reactor = 1
 			12325 = {
 				naval_base = 5
 

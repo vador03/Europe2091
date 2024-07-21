@@ -9,6 +9,7 @@ state={
 		add_core_of = SPR
 		buildings = {
 			infrastructure = 3
+			nuclear_reactor = 1
 			15192 = { naval_base = 1 }
 		}
 		victory_points = {

@@ -10,6 +10,7 @@ state={
 		add_core_of = CRZ
 		buildings = {
 			infrastructure = 3
+			nuclear_reactor = 1
 		}
 		victory_points = {
 			11941 20

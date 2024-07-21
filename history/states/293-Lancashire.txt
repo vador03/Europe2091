@@ -15,6 +15,7 @@ state={
 		add_core_of = LCS
 		buildings = {
 			infrastructure = 4
+			nuclear_reactor = 1
 			11264 = { naval_base = 5 }
 		}
 	

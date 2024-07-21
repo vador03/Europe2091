@@ -8,6 +8,7 @@ state={
 		add_core_of = SMA
 		buildings = {
 			infrastructure = 3
+			nuclear_reactor = 1
 			4811 = { naval_base = 1 }
 		}
 		victory_points = { 4811 3 }

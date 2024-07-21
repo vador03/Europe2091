@@ -8,6 +8,7 @@ state={
 		add_core_of = SCA
 		buildings = {
 			infrastructure = 2
+			nuclear_reactor = 1
 			19530 = { naval_base = 1 }
 		}
 		victory_points = { 19530 5 }

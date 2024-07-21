@@ -19,7 +19,9 @@ state={
 		victory_points = {
 			17228 2 
 		}
-
+		buildings = {
+			nuclear_reactor = 1
+		}
 	}
 	manpower=413901
 	state_category=city

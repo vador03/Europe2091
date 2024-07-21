@@ -8,6 +8,7 @@ state={
 		add_core_of = KAZ
 		buildings = {
 			infrastructure = 2
+			nuclear_reactor = 1
 		}
 		victory_points = { 2782 2 }
 	}
