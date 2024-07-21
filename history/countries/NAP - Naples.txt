@@ -41,7 +41,7 @@ create_country_leader = {
 	name = "Ferdinand III of Bourbon"
 	desc = ""
 	picture = "gfx/leaders/Europe/portrait_europe_generic_1.dds"
-	expire = "1960.1.1"
+	expire = "2160.1.1"
 	ideology = despotism
 	traits = {
 		
