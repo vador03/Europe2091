@@ -1,0 +1,60 @@
+ryan_army_decisions = {
+    ryan_officer_training_corps = {
+        icon = generic_army_support
+        fixed_random_seed = no
+        available = {
+            arms_factory > 10
+        }
+
+        complete_effect = {
+            random_owned_state = {
+                limit = {
+                    arms_factory > 2
+                }
+                remove_building = { 
+                   type = arms_factory
+                   level = 2
+                }
+            }
+            add_ideas = ryan_officer_training_corps
+        } # Complete effect end
+        modifier = {
+
+            }
+        # days_remove = 9999 # Stays for 90 days before being removed
+        fire_only_once = yes # Will re-enable after being removed
+        remove_effect = {
+        }
+        ai_will_do = {
+            base = 0
+            modifier = {
+                add = 1
+                num_of_military_factories > 15
+                num_of_civilian_factories > 15
+                num_divisions > 20
+                OR = {
+                          has_equipment = {
+                            infantry_equipment > 5000
+                          }
+                          has_equipment = {
+                            infantry_equipment_1 > 5000
+                          }
+                          has_equipment = {
+                            infantry_equipment_2 > 5000
+                          }
+                          has_equipment = {
+                            infantry_equipment_3 > 5000
+                          }
+                                         
+                }
+            }       
+        }
+    } # Officer Training Corps
+
+
+} # Army Decisions
+
+
+
+
+

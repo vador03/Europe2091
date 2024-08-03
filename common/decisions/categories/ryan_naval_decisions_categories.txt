@@ -1,0 +1,9 @@
+ryan_naval_decisions = {
+     # icon = generic_prospect_for_resources
+     picture = GFX_decision_cat_picture_naval_treaties
+     # picture = GFX_decision_cat_picture_government_in_exile
+     allowed = {
+		# has_dlc = "Man the Guns"
+		has_dlc = "Waking the Tiger"
+		}
+}

@@ -1,0 +1,19 @@
+﻿l_english:
+ ryan_naval_decisions:0 "Navy Management - Improve your Nation's Navy."
+ ryan_naval_decisions_desc:0 "Become Master Ship Builders!  Create world-class shipyards.  Integrate specialized manufacturing processes for increase efficiencies.  Contract private industry to boost shipyard output."
+ 
+ ryan_ship_upgrade_efficiency:0 "Improve Ship Retrofitting With Privatized Dockyards"
+ ryan_ship_upgrade_efficiency_desc:0 "Contract ship upgrades to our nation's best ship builders"
+ 
+ ryan_heavy_ship_specialization:0 "Heavy Ship Specialization With Modular Production"
+ ryan_heavy_ship_specialization_desc:0 "Convert artillery and tank factories into manufacturing heavy ship components."
+
+ryan_navy_research:0 "Boost Navy Technology By Investing in Foreign Contacts"
+ryan_navy_research_desc:0 "Develop spy networks and business contacts in foreign nations to steal and learn naval technologies."
+
+ryan_heavy_engine_specialization:0 "Ship Heavy Engine Specialization -Divert Military Factories to Support Shipyards"
+ryan_heavy_engine_specialization_desc:0 "Convert tank factories into manufacturing heavy ship engines"
+
+ryan_carrier_specialization:0 "Carrier Specialization"
+ryan_carrier_specialization_desc:0 "Convert aircraft factories into manufacturing carrier components."
+ 

@@ -1,0 +1,9 @@
+ryan_army_decisions = {
+     icon = military_operation
+     # picture = GFX_decision_cat_picture_naval_treaties
+     # picture = GFX_decision_cat_picture_government_in_exile
+     allowed = {
+		# has_dlc = "Man the Guns"
+		has_dlc = "Waking the Tiger"
+		}
+}

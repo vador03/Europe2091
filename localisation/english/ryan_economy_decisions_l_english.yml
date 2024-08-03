@@ -1,0 +1,53 @@
+﻿l_english:
+ ryan_economy_decisions:0 "Economy Management"
+ ryan_economy_decisions_desc:0 "Improve your nation's economy, science, and industrial output. This includes investments in civilian and military universities, transportation, farmland, mining, industry.  New sites for towns and cities are devloped with aggressive immigration policies to integrate foreign people groups into the nation."
+ 
+ ryan_increase_population:0 "Immigration Policy boosts population."
+ ryan_increase_population_desc:0 "Divert construction resources to building settlements for integrating new population into the economy."
+ 
+ ryan_increase_manpower:0 "Recruit foreign fighting age men in exchange to care for their families."
+ ryan_increase_manpower_desc:0 "Divert civilian factories to build military housing and barracks for the families of foreign recruits."
+
+ ryan_increase_political_power:0 "Increase Political Power"
+ ryan_increase_political_power_desc:0 "Divert economic resources to the well being of citizens."
+ # ryan_increase_political_power_desc:0 "Bribery, political backscratching, provide for your political base."
+
+ ryan_increase_technology:0 "Increase Technological Capabilities"
+ ryan_increase_technology_desc:0 "Convert industrial, military and naval complexes into research and development facilities."
+
+ ryan_state_development_wasteland:0 "Complete Project to Expand Farmlands and Grazing Ranges"
+ ryan_state_development_wasteland_desc:0 "Cultivate land to grow crops and livestock suitable for inhospitable climates."
+
+ ryan_state_development_rural:0 "Long Term Development in Rural Areas."
+ ryan_state_development_rural_desc:0 "A massive investment in development causes towns to form in rural areas."
+
+ ryan_state_development_town:0 "Promote Town Growth"
+ ryan_state_development_town_desc:0 "Invest in town specialties,so they grow into cities."
+
+ ryan_state_development_city:0 "Modernize our Cities"
+ ryan_state_development_city_desc:0 "Complete the building of world-class infrastructure in our cities."
+
+ ryan_state_development_largetown:0 "Urban Regions Thrive with Investment"
+ ryan_state_development_largetown_desc:0 "Expand population centers into dense urban areas."
+
+ ryan_state_development_largecity:0 "Continue City Expansion"
+ ryan_state_development_largecity_desc:0 "This long term investment will pay off in time."
+
+ ryan_state_development_metropolis:0 "The Pinnacle of Urban Achievement"
+ ryan_state_development_metropolis_desc:0 "The culmination of urban investment has resulted in cities dotted with skyscrapers."
+
+ryan_state_development_1:0 "Create New Industrial District"
+ryan_state_development_1_desc:0 "Zone land and build infrastructure to support a new industrial district."
+
+ ryan_invest_in_steel:0 "Support the steel industry"
+ ryan_invest_in_steel_desc:0 "Steel mass production requires a large workforce."
+
+ ryan_invest_in_aluminium:0 "Support the aluminium industry."
+ ryan_invest_in_aluminium_desc:0 "Huge smelters are expanded in large industrial zones."
+
+ ryan_invest_in_chromium:0 "Support the chromium industry"
+ ryan_invest_in_chromium_desc:0 "It is in the national interest to support prospecting and mining."
+
+ ryan_invest_in_tungsten:0 "Support the tungsten industry"
+ ryan_invest_in_tungsten_desc:0 "It is in the national interest to support prospecting and mining."
+ 

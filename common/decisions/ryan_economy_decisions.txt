@@ -1,0 +1,823 @@
+ryan_economy_decisions = {
+    ryan_increase_population = {
+    	icon = generic_political_discourse
+    	available = {
+
+    	}
+    	
+    	complete_effect = {
+            
+        }
+        modifier = {
+				MONTHLY_POPULATION = 3
+				# production_speed_buildings_factor = -0.2
+                consumer_goods_factor = 0.05
+			}
+		days_remove = 120 # Stays for 120 days before being removed
+    	days_re_enable = 1 # Will show up in the interface and can be selected again after 1 days
+    	fire_only_once = no # Will re-enable after being removed
+    	remove_effect = {
+
+        }
+        ai_will_do = {
+        	base = 0
+        	modifier = {
+        		add = 3
+                is_major = yes
+                has_war = yes
+                num_of_civilian_factories > 60
+        	}
+        }	    
+    } # Increase population
+
+    ryan_increase_manpower = {
+     	icon = generic_form_nation
+     	complete_effect = {
+
+     	}
+     	modifier = {
+     		# civilian_factory_use = 5
+            consumer_goods_factor = 0.1
+            weekly_manpower = 10000            
+     	}
+        days_remove = 30 # Stays for 90 days before being removed
+    	days_re_enable = 30 # Will show up in the interface and can be selected again after 30 days
+    	fire_only_once = no # Will re-enable after being removed
+        remove_effect = {
+            add_manpower = 10000               
+        }        
+    	ai_will_do = {
+    		base = 0
+    		modifier = {
+    			add = 4
+    			has_manpower < 10000
+    		}
+    	}
+
+    } # Increase manpower
+
+    ryan_increase_political_power = {
+     	icon = generic_civil_support
+     	fixed_random_seed = no
+     	available = {
+
+     		}
+     	complete_effect = {
+
+            }
+     	modifier = {
+            political_power_gain = 0.5
+            political_power_factor = 0.25
+            consumer_goods_factor = 0.1
+     	}
+        days_remove = 90 # Stays for 90 days before being removed
+    	days_re_enable = 1 # Will show up in the interface and can be selected again after 1 days
+    	fire_only_once = no # Will re-enable after being removed
+    	remove_effect = {
+    		add_political_power = 10
+        }    	
+    	ai_will_do = {
+    		base = 0
+    		modifier = {
+    			add = 5
+    			num_of_factories > 25
+    			has_political_power < 200
+    			# political_power_growth < 1.2
+                has_army_size = {
+                    size > 4
+                    type = infantry
+                }
+                OR = {
+                        is_major = yes
+                        has_political_power < 200
+                }
+                                         
+                }
+    	}
+	} # Increase Political Power
+
+	ryan_increase_technology = {
+     	icon = generic_research
+     	fixed_random_seed = no
+     	available = {
+            any_owned_state = {
+                industrial_complex > 4
+            }
+            any_owned_state = {
+                arms_factory > 4
+            }
+            any_owned_state = {
+                dockyard > 4
+            }            
+
+     	} # Available End
+
+     	complete_effect = {
+            random_owned_state = {
+                limit = {
+                	industrial_complex > 4
+                }
+                remove_building = { 
+                   type = industrial_complex
+                   level = 5
+                }
+            }
+            random_owned_state = {
+                limit = {
+                	arms_factory > 4
+                }
+                remove_building = { 
+                   type = arms_factory
+                   level = 5
+                }
+            }
+            random_owned_state = {
+                limit = {
+                	dockyard > 4
+                }
+                remove_building = { 
+                   type = dockyard
+                   level = 5
+                }
+            }            
+        } # Complete effect end
+     	modifier = {
+
+     	}
+        days_remove = 30 # Stays for 90 days before being removed
+    	fire_only_once = yes # Will re-enable after being removed
+    	remove_effect = {
+    		add_research_slot = 1
+        }    	
+    	ai_will_do = {
+    		base = 0
+    		modifier = {
+    			add = 2
+                is_major = yes
+    			num_of_civilian_factories > 30
+    			num_of_military_factories > 30
+    			num_of_naval_factories > 10
+           }    	
+
+    	}
+	} # Increase Technology
+################################################################
+    ryan_state_development_wasteland = {
+        icon = generic_operation
+        fixed_random_seed = no
+        available = {
+            num_of_civilian_factories_available_for_projects > 3
+            any_owned_state = {
+                is_core_of = ROOT
+                is_fully_controlled_by = ROOT    
+                    OR = {
+                          has_state_category = wasteland
+                          has_state_category = enclave
+                          has_state_category = tiny_island                    
+                    }
+            }
+
+        }
+        complete_effect = {
+            random_owned_controlled_state = {
+                LIMIT = {
+                    is_core_of = ROOT
+                    OR = {
+                          has_state_category = wasteland
+                          has_state_category = enclave
+                          has_state_category = tiny_island                    
+                    }
+                }
+                set_state_category = rural
+            }               
+        }
+        modifier = {
+            civilian_factory_use = 4
+        }
+        days_remove = 30 # Stays for 30 days before being removed
+        days_re_enable = 1 # Will show up in the interface and can be selected again after 1 days
+        fire_only_once = no # Will re-enable after being removed               
+        remove_effect = {
+                
+        }
+        ai_will_do = {
+            base = 0
+            modifier = {
+                add = 1
+                date > 1941.01.01
+                all_owned_state = {
+                    OR = {
+                        is_owned_by = ROOT
+                        is_controlled_by = ROOT
+                    }                        
+                    free_building_slots = {
+                        building = industrial_complex
+                        size < 1
+                    }
+                
+                }                                          
+            }
+        }        
+    }  # State Development Wasteland
+
+###########################################################
+    ryan_state_development_rural = {
+        icon = generic_operation
+        fixed_random_seed = no
+        available = {
+            num_of_civilian_factories_available_for_projects > 3
+            any_owned_state = {
+                is_core_of = ROOT
+                is_fully_controlled_by = ROOT    
+                    OR = {
+                          has_state_category = rural                 
+                    }
+            }
+
+        }
+        complete_effect = {
+            random_owned_controlled_state = {
+                LIMIT = {
+                    is_core_of = ROOT
+                    OR = {
+                          has_state_category = rural                  
+                    }
+                }
+                set_state_category = town
+            }               
+        }
+        modifier = {
+            civilian_factory_use = 4
+        }
+        days_remove = 300 # Stays for 30 days before being removed
+        days_re_enable = 1 # Will show up in the interface and can be selected again after 1 days
+        fire_only_once = no # Will re-enable after being removed               
+        remove_effect = {
+                
+        }
+        ai_will_do = {
+            base = 0
+            modifier = {
+                add = 1
+                date > 1941.01.01      
+                all_owned_state = {
+                    OR = {
+                        is_owned_by = ROOT
+                        is_controlled_by = ROOT
+                    }                        
+                    free_building_slots = {
+                        building = industrial_complex
+                        size < 1
+                        include_locked = no
+                    }
+                
+                }                                          
+            }
+        }        
+    }  # State Development Rural
+
+##############################################################
+    ryan_state_development_town = {
+        icon = generic_operation
+        fixed_random_seed = no
+        available = {
+            num_of_civilian_factories_available_for_projects > 3
+            any_owned_state = {
+                is_core_of = ROOT
+                is_fully_controlled_by = ROOT    
+                    OR = {
+                          has_state_category = town            
+                    }
+                
+            }                           
+        }
+        complete_effect = {
+            random_owned_controlled_state = {
+                LIMIT = {
+                    is_core_of = ROOT
+                    OR = {
+                          has_state_category = town                 
+                    }
+                }
+                set_state_category = city
+            }               
+        }
+        modifier = {
+            civilian_factory_use = 4
+        }
+        days_remove = 30 # Stays for 90 days before being removed
+        days_re_enable = 1 # Will show up in the interface and can be selected again after 1 days
+        fire_only_once = no # Will re-enable after being removed               
+        remove_effect = {
+                
+        }
+        ai_will_do = {
+            base = 0
+            modifier = {
+                add = 1
+                all_owned_state = {
+                    OR = {
+                        is_owned_by = ROOT
+                        is_controlled_by = ROOT
+                    }                        
+                    free_building_slots = {
+                        building = industrial_complex
+                        size < 2
+                        include_locked = no
+                    }
+                
+                }                                          
+            }
+        }        
+    }  # State Development Town
+
+    ryan_state_development_city = {
+        icon = generic_operation
+        fixed_random_seed = no
+        available = {
+            num_of_civilian_factories_available_for_projects > 3
+            any_owned_state = {
+                is_core_of = ROOT
+                is_fully_controlled_by = ROOT    
+                    OR = {
+                          has_state_category = city                    
+                    }
+                
+            }                           
+        }
+        complete_effect = {
+            random_owned_controlled_state = {
+                LIMIT = {
+                    is_core_of = ROOT
+                    OR = {
+                          has_state_category = city                    
+                    }
+                }
+                set_state_category = metropolis
+            }               
+        }
+        modifier = {
+            civilian_factory_use = 4
+        }
+        days_remove = 30 # Stays for 90 days before being removed
+        days_re_enable = 1 # Will show up in the interface and can be selected again after 1 days
+        fire_only_once = no # Will re-enable after being removed               
+        remove_effect = {
+                
+        }
+        ai_will_do = {
+            base = 0
+            modifier = {
+                add = 1
+                all_owned_state = {
+                    OR = {
+                        is_owned_by = ROOT
+                        is_controlled_by = ROOT
+                    }                        
+                    free_building_slots = {
+                        building = industrial_complex
+                        size < 2
+                        include_locked = no
+                    }
+                
+                }                                          
+            }
+        }
+    }  # State Development City
+
+    ryan_state_development_largetown = {
+        icon = generic_operation
+        fixed_random_seed = no
+        available = {
+            num_of_civilian_factories_available_for_projects > 3
+            any_owned_state = {
+                is_core_of = ROOT
+                is_fully_controlled_by = ROOT    
+                    OR = {
+                          has_state_category = large_town                    
+                    }
+                
+            }                           
+        }
+        complete_effect = {
+            random_owned_controlled_state = {
+                LIMIT = {
+                    is_core_of = ROOT
+                    OR = {
+                          has_state_category = large_town                  
+                    }
+                }
+                set_state_category = large_city
+            }               
+        }
+        modifier = {
+            civilian_factory_use = 4
+        }
+        days_remove = 30 # Stays for 90 days before being removed
+        days_re_enable = 1 # Will show up in the interface and can be selected again after 1 days
+        fire_only_once = no # Will re-enable after being removed               
+        remove_effect = {
+                
+        }
+        ai_will_do = {
+            base = 0
+            modifier = {
+                add = 1
+                all_owned_state = {
+                    OR = {
+                        is_owned_by = ROOT
+                        is_controlled_by = ROOT
+                    }                        
+                    free_building_slots = {
+                        building = industrial_complex
+                        size < 2
+                        include_locked = no
+                    }
+                
+                }                                          
+            }
+        }
+    }  # State Development LargeTown
+
+###########################################################
+    ryan_state_development_largecity = {
+        icon = generic_operation
+        fixed_random_seed = no
+        available = {
+            num_of_civilian_factories_available_for_projects > 3
+            any_owned_state = {
+                is_core_of = ROOT
+                is_fully_controlled_by = ROOT    
+                    OR = {
+                          has_state_category = large_city
+                    }
+            }
+
+        }
+        complete_effect = {
+            random_owned_controlled_state = {
+                LIMIT = {
+                    is_core_of = ROOT
+                    OR = {
+                          has_state_category = large_city
+                    }
+                }
+                set_state_category = metropolis
+            }               
+        }
+        modifier = {
+            civilian_factory_use = 4
+        }
+        days_remove = 300 # Stays for 300 days before being removed
+        days_re_enable = 1 # Will show up in the interface and can be selected again after 1 days
+        fire_only_once = no # Will re-enable after being removed               
+        remove_effect = {
+                
+        }
+        ai_will_do = {
+            base = 0
+            modifier = {
+                add = 1
+                date > 1941.01.01
+                all_owned_state = {
+                    OR = {
+                        is_owned_by = ROOT
+                        is_controlled_by = ROOT
+                    }                        
+                    free_building_slots = {
+                        building = industrial_complex
+                        size < 1
+                        include_locked = no
+                    }
+                
+                }                                          
+            }
+        }        
+    }  # State Development LargeCity
+
+###########################################################
+    ryan_state_development_metropolis = {
+        icon = generic_operation
+        fixed_random_seed = no
+        available = {
+            num_of_civilian_factories_available_for_projects > 3
+            any_owned_state = {
+                is_core_of = ROOT
+                is_fully_controlled_by = ROOT    
+                    OR = {
+                          has_state_category = metropolis
+                    }
+            }
+
+        }
+        complete_effect = {
+            random_owned_controlled_state = {
+                LIMIT = {
+                    is_core_of = ROOT
+                    OR = {
+                          has_state_category = metropolis
+                    }
+                }
+                set_state_category = megalopolis
+            }               
+        }
+        modifier = {
+            civilian_factory_use = 4
+        }
+        days_remove = 300 # Stays for 300 days before being removed
+        days_re_enable = 1 # Will show up in the interface and can be selected again after 1 days
+        fire_only_once = no # Will re-enable after being removed               
+        remove_effect = {
+                
+        }
+        ai_will_do = {
+            base = 0
+            modifier = {
+                add = 1
+                date > 1941.01.01    
+                all_owned_state = {
+                    OR = {
+                        is_owned_by = ROOT
+                        is_controlled_by = ROOT
+                    }                        
+                    free_building_slots = {
+                        building = industrial_complex
+                        size < 1
+                        include_locked = no
+                    }
+                
+                }                                          
+            }
+        }        
+    }  # State Development Metropolis
+#######################################################
+
+    ryan_state_development_1 = {
+        icon = generic_operation
+        fixed_random_seed = no
+        available = {
+            num_of_civilian_factories_available_for_projects > 3
+            any_owned_state = {
+                is_core_of = ROOT
+                is_fully_controlled_by = ROOT
+                # check_variable = { modifier@local_building_slot < 25 }  # Doesn't work
+                free_building_slots = {
+                    building = arms_factory
+                    size > 0
+                    include_locked = yes
+                }
+            }                           
+        }
+        complete_effect = {
+            random_owned_controlled_state = {
+                LIMIT = {
+                    is_core_of = ROOT
+                    free_building_slots = {
+                        building = arms_factory
+                        size > 1
+                        include_locked = yes                
+                    }                    
+                }
+                add_extra_state_shared_building_slots = 1
+            }               
+        }
+        modifier = {
+            civilian_factory_use = 3
+        }
+        days_remove = 30 # Stays for 90 days before being removed
+        days_re_enable = 1 # Will show up in the interface and can be selected again after 1 days
+        fire_only_once = no # Will re-enable after being removed               
+        remove_effect = {
+                
+        }
+        ai_will_do = {
+            base = 0
+            modifier = {
+                add = 1
+                date > 1941.01.01          
+                # num_of_civilian_factories > 15
+                all_owned_state = {
+                    OR = {
+                        is_owned_by = ROOT
+                        is_controlled_by = ROOT
+                    }                        
+                    free_building_slots = {
+                        building = industrial_complex
+                        size < 2
+                        include_locked = no
+                    }
+                
+                }                                          
+            }
+        }        
+    }  # State Development 1
+
+    ryan_invest_in_steel = {
+    	icon = steel
+    	fixed_random_seed = no
+    	available = {
+    		num_of_civilian_factories_available_for_projects > 3
+            any_owned_state = {
+            is_core_of = ROOT
+            is_fully_controlled_by = ROOT    
+                OR = {
+                      has_state_category = megalopolis
+                      has_state_category = metropolis
+                      has_state_category = large_city
+                      has_state_category = city                    
+                }
+            }
+    	}
+    	complete_effect = {
+            random_owned_controlled_state = {
+            	LIMIT = {
+            		is_core_of = ROOT
+                    OR = {
+                      has_state_category = megalopolis
+                      has_state_category = metropolis
+                      has_state_category = large_city
+                      has_state_category = city 
+                    }
+            	}
+            	add_resource = {type = steel amount = 6}
+            }               
+        }
+        modifier = {
+        	civilian_factory_use = 4
+        }
+        days_remove = 60 # Stays for 90 days before being removed
+    	days_re_enable = 1 # Will show up in the interface and can be selected again after 1 days
+    	fire_only_once = no # Will re-enable after being removed
+    	remove_effect = {
+
+    	}
+    	ai_will_do = {
+    		base = 0
+    		modifier = {
+    			add = .5
+    			# has_resources_amount = {resource = steel amount < 1}
+                # num_of_military_factories > 100
+                # num_of_civilian_factories > 90
+                check_variable = {
+                    var = resource@steel
+                    value = 0
+                    compare = less_than
+                }
+    		}
+    	}
+    } # Invest in Steel  
+
+    ryan_invest_in_aluminium = {
+    	icon = aluminium
+    	fixed_random_seed = no
+    	available = {
+    		num_of_civilian_factories_available_for_projects > 3
+            any_owned_state = {
+            is_core_of = ROOT
+            is_fully_controlled_by = ROOT    
+                OR = {
+                      has_state_category = megalopolis
+                      has_state_category = metropolis
+                      has_state_category = large_city
+                      has_state_category = city                    
+                }
+            }
+    	}
+    	complete_effect = {
+            random_owned_controlled_state = {
+                LIMIT = {
+                    is_core_of = ROOT
+                    OR = {
+                      has_state_category = megalopolis
+                      has_state_category = metropolis
+                      has_state_category = large_city
+                      has_state_category = city 
+                    }
+                }
+                add_resource = {type = aluminium amount = 4 }
+            }               
+        }
+        modifier = {
+        	civilian_factory_use = 4
+        }
+        days_remove = 60 # Stays for 90 days before being removed
+    	days_re_enable = 1 # Will show up in the interface and can be selected again after 1 days
+    	fire_only_once = no # Will re-enable after being removed
+    	remove_effect = {
+
+    	}
+    	ai_will_do = {
+    		base = 0
+    		modifier = {
+    			add = .4
+    			# has_resources_amount = {resource = aluminium amount < 1}
+                # num_of_military_factories > 100
+                # num_of_civilian_factories > 90
+                check_variable = {
+                    var = resource@aluminium
+                    value = 0
+                    compare = less_than
+                }                
+    		}
+    	}
+    } # Invest in Aluminium 
+
+    ryan_invest_in_chromium = {
+    	icon = chromium
+    	fixed_random_seed = no
+    	available = {
+    		num_of_civilian_factories_available_for_projects > 3
+    	}
+    	complete_effect = {
+            random_owned_controlled_state = {
+            	LIMIT = {
+            		is_core_of = ROOT
+            	}
+            	add_resource = {type = chromium amount = 4 }
+            }               
+        }
+        modifier = {
+        	civilian_factory_use = 4
+        }
+        days_remove = 60 # Stays for 90 days before being removed
+    	days_re_enable = 1 # Will show up in the interface and can be selected again after 1 days
+    	fire_only_once = no # Will re-enable after being removed
+    	remove_effect = {
+
+    	}
+    	ai_will_do = {
+    		base = 0
+    		modifier = {
+    			add = .2
+    			# has_resources_amount = {resource = chromium amount < 1}
+                # num_of_military_factories > 100
+                # num_of_civilian_factories > 90
+                # num_of_naval_factories > 40
+                check_variable = {
+                    var = resource@chromium
+                    value = 0
+                    compare = less_than
+                }                
+    		}
+    	}
+    } # Invest in chromium 
+
+    ryan_invest_in_tungsten = {
+    	icon = tungsten
+    	fixed_random_seed = no
+    	available = {
+    		num_of_civilian_factories_available_for_projects > 3
+    	}
+    	complete_effect = {
+            random_owned_controlled_state = {
+            	LIMIT = {
+            		is_core_of = ROOT
+            	}
+            	add_resource = {type = tungsten amount = 4 }
+            }               
+        }
+        modifier = {
+        	civilian_factory_use = 4
+        }
+        days_remove = 60 # Stays for 90 days before being removed
+    	days_re_enable = 1 # Will show up in the interface and can be selected again after 1 days
+    	fire_only_once = no # Will re-enable after being removed
+    	remove_effect = {
+
+    	}
+    	ai_will_do = {
+    		base = 0
+    		modifier = {
+    			add = .3
+    			# has_resources_amount = {resource = tungsten amount < 1}
+                # num_of_military_factories > 100
+                # num_of_civilian_factories > 90
+                # num_of_naval_factories > 50  
+                check_variable = {
+                    var = resource@tungsten
+                    value = 0
+                    compare = less_than
+                }
+    		}
+    	}
+    } # Invest in Tungsten
+
+
+
+
+
+
+                  
+} # Economy Decisions
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,47 @@
+ideas = {
+    country = {
+        ryan_heavy_ship_specialization = {
+            picture = generic_navy_bonus
+            # designer = no
+            allowed = {
+                # always = no
+            }
+            equipment_bonus = {
+                ship_hull_heavy = {
+                    build_cost_ic = -0.35 instant = yes
+                }
+                ship_hull_carrier = {
+                    build_cost_ic = -0.35 instant = yes
+                }                                          
+            }
+            modifier = {
+
+            }
+            research_bonus = {
+
+            }
+
+        } # Heavy Ship Specialization
+        
+        ryan_officer_training_corps = {
+            picture = eng_imperial_conscription
+            # designer = no
+            allowed = {
+                # always = no
+            }
+            modifier = {
+                max_command_power = 50
+            }
+            research_bonus = {
+
+            }
+
+        } # Officer Training Corps
+
+    } # country
+}
+
+
+
+
+

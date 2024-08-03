@@ -1,0 +1,197 @@
+ryan_naval_decisions = {
+        ryan_ship_upgrade_efficiency = {
+        icon = generic_naval
+        fixed_random_seed = no
+        available = {
+            dockyard > 9
+        }            
+
+        complete_effect = {
+            random_owned_state = {
+                limit = {
+                    dockyard > 1
+                }
+                remove_building = { 
+                   type = dockyard
+                   level = 2
+                }
+            }
+            random_owned_state = {
+                limit = {
+                    dockyard > 1
+                }
+                remove_building = { 
+                   type = dockyard
+                   level = 2
+                }
+            }
+            random_owned_state = {
+                limit = {
+                    dockyard > 1
+                }
+                remove_building = { 
+                   type = dockyard
+                   level = 2
+                }
+            }            
+        } # Complete effect end
+        modifier = {
+                refit_speed = 0.35
+                # navy_refit_speed= 0.35
+                refit_ic_cost = -0.35
+                # navy_refit_ic_cost = -0.35
+                # repair_speed_factor = 0.4
+                # build_cost_ic = 0.2
+        }
+
+        days_remove = 9999 # Stays for 90 days before being removed
+        fire_only_once = yes # Will re-enable after being removed
+        remove_effect = {
+        }       
+        ai_will_do = {
+            base = 0
+            modifier = {
+                add = 1
+                num_of_naval_factories > 25
+            }       
+
+        }
+    } # Ship Upgrade Efficiency
+
+    ryan_heavy_ship_specialization = {
+        icon = generic_naval
+        fixed_random_seed = no
+        available = {
+            arms_factory > 5
+        }
+
+        complete_effect = {
+            random_owned_state = {
+                limit = {
+                    arms_factory > 1
+                }
+                remove_building = { 
+                   type = arms_factory
+                   level = 2
+                }
+            }
+            random_owned_state = {
+                limit = {
+                    arms_factory > 1
+                }
+                remove_building = { 
+                   type = arms_factory
+                   level = 2
+                }
+            }
+            random_owned_state = {
+                limit = {
+                    arms_factory > 1
+                }
+                remove_building = {
+                   type = arms_factory
+                   level = 2
+                }
+            }    
+            add_ideas = ryan_heavy_ship_specialization
+        } # Complete effect end
+        modifier = {
+
+            }
+        # days_remove = 9999 # Stays for 90 days before being removed
+        fire_only_once = yes # Will re-enable after being removed
+        remove_effect = {
+        }
+        ai_will_do = {
+            base = 0
+            modifier = {
+                add = 1
+                num_of_naval_factories > 20
+                num_of_military_factories > 30
+                has_tech = early_battleship
+                OR = {
+                          has_equipment = {
+                            infantry_equipment > 5000
+                          }
+                          has_equipment = {
+                            infantry_equipment_1 > 5000
+                          }
+                          has_equipment = {
+                            infantry_equipment_2 > 5000
+                          }
+                          has_equipment = {
+                            infantry_equipment_3 > 5000
+                          }
+                                         
+                }
+            }       
+        }
+    } # Ship Heavy Ship Specialization
+
+    ryan_navy_research = {
+        icon = generic_naval
+        fixed_random_seed = no
+        available = {
+            industrial_complex > 5
+        }
+
+        complete_effect = {
+            add_tech_bonus = {
+                bonus = 0.3
+                uses = 1
+                # ahead_reduction = 0.5
+                category = naval_equipment
+                category = naval_minelaying
+                category = naval_minesweeping
+                category = asw_tech
+                category = naval_mines
+                category = tp_tech
+                category = ss_tech
+                category = shbb_tech
+                category = bb_tech
+                category = bc_tech
+                category = cv_tech
+                category = ca_tech
+                category = cl_tech
+                category = dd_tech
+            }    
+
+        }
+        modifier = {
+            civilian_factory_use = 3
+            }
+        days_remove = 100 # Stays for 100 days before being removed
+        days_re_enable = 30 # Will show up in the interface and can be selected again after 30 days        
+        fire_only_once = no # Will re-enable after being removed
+        remove_effect = {
+        }
+        ai_will_do = {
+            base = 0
+            modifier = {
+                add = 1
+                num_of_naval_factories > 20
+                num_of_civilian_factories > 20
+                OR = {
+                        has_navy_size = {
+                            size > 25
+                            type = screen_ship
+                        }
+                        has_navy_size = {
+                            size > 3
+                            type = capital_ship
+                        }
+                                         
+                    }
+            }       
+        }
+    } # Navy Research
+
+
+
+
+} # Naval Decisions
+
+
+
+
+
