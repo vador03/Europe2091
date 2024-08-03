@@ -22,7 +22,7 @@ focus_tree = {
 		factor = 1
 	}
 	
-	default = yes
+	default = no
 	reset_on_civilwar = no
 
 	initial_show_position = {
@@ -267,44 +267,6 @@ focus_tree = {
 				technology = tech_mountaineers
 				technology = tech_mountaineers2
 			}
-		}
-	}
-	focus = {
-		id = special_forces_Winter
-		icon = GFX_goal_generic_special_forces
-		prerequisite = { focus = special_forces }
-		mutually_exclusive = { focus = special_forces_Desert }
-
-		x = 1
-		y = 0.2
-		relative_position_id = special_forces
-		cost = 10
-
-		search_filters = { FOCUS_FILTER_RESEARCH }
-		
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_ideas = winter_experts
-		}
-	}
-	focus = {
-		id = special_forces_Desert
-		icon = GFX_goal_generic_special_forces
-		prerequisite = { focus = special_forces }
-		mutually_exclusive = { focus = special_forces_Winter }
-
-		x = -1
-		y = 0.2
-		relative_position_id = special_forces
-		cost = 10
-
-		search_filters = { FOCUS_FILTER_RESEARCH }
-		
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_ideas = desert_experts
 		}
 	}
 
@@ -1170,8 +1132,6 @@ focus_tree = {
 		}
 	}
 
-
-
 	focus = {
 		id = construction_effort_2
 		icon = GFX_goal_generic_construct_civ_factory
@@ -1816,6 +1776,7 @@ focus_tree = {
 			}
 			modifier = {
 				factor = 20
+				has_idea = SOV_russian_political_influence
 			}
 		}
 
@@ -1863,6 +1824,7 @@ focus_tree = {
 			}
 			modifier = {
 				factor = 10
+				has_idea = SOV_russian_political_influence
 			}
 		}
 
